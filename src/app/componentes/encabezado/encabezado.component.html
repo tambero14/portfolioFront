@@ -1,0 +1,50 @@
+<div class="global-header">
+    <div class="logo" style="padding: 20px;">
+        <img class="logo-arg-prog" src="./assets/arg-programa.png">
+    </div>
+    <div class="text-logo">
+        <p><strong>Argentina<br>Programa</strong></p>
+    </div>
+    <div class="margen-derecho">
+        <ul class="lista-elementos" style="list-style: none;">
+            <li class="linkedin">
+                <a href="https://www.linkedin.com/in/javierfain/">
+                    <img class="linkedin" src="./assets/linkedin.png" alt="Perfil de Linkedin">
+                </a>
+            </li>
+            <li class="instagram">
+                <a href="https://www.instagram.com/javifain14/">
+                    <img class="instagram" src="./assets/ig.png">
+                </a>                       
+            </li>
+            <li class="boton">
+                <button class="btn btn-outline-dark" type="button">LOG IN</button>
+            </li>
+        </ul>
+    </div>
+  </div>
+  
+  <!--header-->
+  <div class="secciones first-card">
+    <div id="banner">
+        <img class="banner-pic" [src]="miPorfolio.backImage">
+    </div>
+    <div id="info">
+        <div id="imagen-perfil">
+            <img class="profile-image" [src]="miPorfolio.image">
+        </div>
+        <div id="info-data">
+            <div id="name">
+                <h2>{{miPorfolio.name}}</h2>
+            </div>
+            <div id="role">
+                <h3>{{miPorfolio.position}}</h3><br>
+                <h3>{{miPorfolio.dev}}</h3>
+            </div>
+        </div>
+        <div id="acerca-de"><fa-icon [icon]="faEdit"></fa-icon>
+            <h3><strong>Información general</strong></h3>
+            <p>{{miPorfolio.about}}<p>
+        </div>
+    </div>
+  </div>

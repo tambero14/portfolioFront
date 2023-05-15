@@ -1,0 +1,30 @@
+<!--educación-->
+<div class="secciones">
+    <div id="title">
+        <h2>EDUCACIÓN
+            <fa-icon 
+                [icon]="faEdit"
+                [ngStyle]= "{'color': 'grey'}"
+          ></fa-icon></h2>
+    </div>
+    <div>
+        <div id="educacion">
+            <ul class="items-list">
+                <li *ngFor="let educacion of educacionList">  
+                    <div id="logo-titulo">
+                        <img class="olga" [src]="educacion.img">
+                        <div id="subheader" style="margin-top: -100px;">
+                            <h3><strong>{{educacion.title}}</strong></h3>
+                        </div>
+                    </div>
+                        <div id="date">
+                            <h4>{{educacion.start}} - {{educacion.end}}</h4>    
+                        </div>
+                        <div id="body">    
+                            <p>{{educacion.body}}</p>
+                        </div><br>
+                </li>
+            </ul>  
+        </div>                
+    </div>
+

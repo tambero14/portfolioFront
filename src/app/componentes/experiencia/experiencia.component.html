@@ -1,0 +1,30 @@
+<!--experiencia laboral-->
+<div class="secciones">
+    <div id="title">
+        <h2>EXPERIENCIA 
+          <fa-icon 
+            [icon]="faEdit"
+            [ngStyle]= "{'color': 'grey'}"
+          ></fa-icon></h2>
+    </div>   
+  <div>
+    <div id="trabajos">
+      <ul class="items-list">
+        <li *ngFor="let experiencia of experienciaList">
+          <div id="logo-titulo">
+            <img class="rws" [src]="experiencia.img"/>
+              <div id="subheader">
+                <h3><strong>{{experiencia.position}}</strong></h3>
+              </div>
+            </div>
+            <div id="date">
+              <h4>{{experiencia.start}} - {{experiencia.end}}</h4>    
+            </div>
+            <div id="body">    
+              <p>{{experiencia.jobDescription}}</p>
+            </div><br>
+      </li> 
+    </ul>
+  </div>      
+</div>
+ 

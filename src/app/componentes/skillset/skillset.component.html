@@ -1,0 +1,75 @@
+
+<div class="secciones">
+    <div id="title">
+        <div>
+            <h2>HARD & SOFT SKILLS
+                <fa-icon 
+                [icon]="faEdit"
+                [ngStyle]= "{'color': 'grey'}"
+          ></fa-icon></h2>
+        </div>
+     </div>
+    <div id="skillset">
+        <div>
+            <h3>Programación</h3>
+            <div id="container">
+                <ul class="items-list">
+                    <li *ngFor="let programacion of programmingList">
+                        <div class="progress" role="progressbar" aria-label="Ruby" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="height: 40px">
+                            <div class="progress-bar" attr.style="width: {{programacion.conocimiento}}">
+                                {{programacion.tecnologia}}</div>
+                            </div><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20pt">
+            <h3>Idiomas</h3>
+            <div id="container">
+                <ul class="items-list">
+                    <li *ngFor="let idioma of idiomasList">
+                        <div class="progress" role="progressbar" aria-label="Ruby" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="height: 40px">
+                            <div class="progress-bar" attr.style="width: {{idioma.conocimiento}}">{{idioma.lang}}</div>
+                        </div><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20pt">
+            <h3>Diseño</h3>
+            <div id="container">
+                <ul class="items-list">
+                    <li *ngFor="let diseno of disenoList">
+                        <div class="progress" role="progressbar" aria-label="Ruby" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="height: 40px">
+                            <div class="progress-bar" attr.style="width: {{diseno.conocimiento}}">{{diseno.tecnologia}}</div>
+                        </div><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20pt">
+            <h3>Traducción & Localización</h3>
+            <div id="container">
+                <ul class="items-list">
+                    <li *ngFor="let tradu of traduccionLocList">
+                        <div class="progress" role="progressbar" aria-label="Ruby" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="height: 40px">
+                            <div class="progress-bar" attr.style="width: {{tradu.conocimiento}}">{{tradu.tecnologia}}</div>
+                        </div><br>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 20pt">
+            <h3>Soft</h3>
+            <div id="container">
+                <ul class="items-list">
+                    <li *ngFor="let soft of softList">
+                        <div class="progress" role="progressbar" aria-label="Ruby" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50" style="height: 40px">
+                            <div class="progress-bar" attr.style="width: {{soft.conocimiento}}">{{soft.item}}</div>
+                        </div><br>
+                 </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+  </div>

@@ -1,0 +1,29 @@
+<div class="secciones">
+    <div id="title">
+        <div>
+            <h2>PROYECTOS
+                <fa-icon 
+                [icon]="faEdit"
+                [ngStyle]= "{'color': 'grey'}"
+         ></fa-icon></h2>
+        </div>
+    </div> 
+    <div>
+        <ul class="items-list"> 
+            <li *ngFor="let proyecto of proyectosList">
+                <div id="subheader" style="margin-top: 50px; margin-left: 335px">
+                    <h3><strong>{{proyecto.name}}</strong></h3>
+                </div>
+                <div id="date">
+                    <h4>{{proyecto.start}} - {{proyecto.end}}</h4>    
+                </div>
+                <div id="body">    
+                    <p>{{proyecto.body}}</p>
+                </div>
+                <div id="img-argentina">
+                    <img class="programa" [src]="proyecto.img" style="margin-left: 30%">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

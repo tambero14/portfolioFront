@@ -1,0 +1,123 @@
+{
+	"name": "Javier Fain",
+	"backImage": "./assets/background_img.jpeg",
+	"image": "./assets/Javier_Fain.jpg",
+	"position": "Traductor de inglés",
+	"dev": "Full Stack Developer Jr.",
+	"about": "Soy traductor técnico-científico, literario en inglés y Desarrollador Full Stack Jr. A medida que fui creciendo en mi carrera, he tenido la dicha de poder entrelazar mis dos grandes pasiones: los idiomas y la tecnología. Me he desarrollado en la desafiante industria de la Traducción por más de 12 años, trabajando en empresas líderes para los clientes más renombrados del mundo. Soy una persona proactiva y me gusta trabajar en equipo.",
+	"experience": [{
+		"position": "Project Manager", 
+		"img": "./assets/acolad.png",
+		"start": "06/2021",
+		"end": "Presente",
+		"jobDescription": "Como Project Manager de Acolad, soy responsable de los proyectos de traducción de determinados clientes que la empresa decide asignarme, dentro del campo de 'life sciences'. El proceso arranca cuando el cliente envía el proyecto hasta que recibe el producto final. El proceso incluye, entre otras, la calidad óptima del producto final y la puntualidad de entrega en fechas pautadas previamente, todo esto dentro de los márgenes financieros de la empresa."
+	},
+	{
+		"position": "Project Manager", 
+		"img": "./assets/rws.png",
+		"start": "2017",
+		"end": "2021",
+		"jobDescription": "Mi primera experiencia como Project Manager en RWS significó la responsabilidad de liderar los programas de traducción de las empresas mas renombradas de la industria IT, muchas de ellas pertenecientes a Sillicon Valley. Estos programas hacen mucho hincapié en la calidad del producto, como en el cumplimiento de las fechas acordadas. Como PM, lideré un equipo interno de 8-10 personas, el cuál era responsable del cumplimiento de los requisitos de los clientes. Además, llevaba a cabo presentaciones trimestrales con los clientes donde se exponían resultados, desafíos, objetivos y posibilidades de mejoría."
+	},
+	{
+		"position": "Project Team Coordinator", 
+		"img": "./assets/rws.png",
+		"start": "2015",
+		"end": "2017",
+		"jobDescription": "Como Project Team Coordinator, era responsable de llevar al día el estado los proyectos de traducción asignados a nuestro equipo, así el Project Manager estaba al corriente de todos estos proyectos de manera rápida y eficiente. Era un nexo entre los Loc. Leads y el PM."
+	},
+	{
+		"position": "Localization Lead", 
+		"img": "./assets/rws.png",
+		"start": "2012",
+		"end": "2017",
+		"jobDescription": "Mi primera experiencia como Localization Lead en RWS (por entonces Moravia) fue mi primer acercamiento con el mundo de la Localización y grandes empresas. Mis funciones en el equipo eran procesar los archivos de traducción que le llegaban a la empresa, para nuestro grupo de clientes, y empezar el ciclo de traducción. En este puesto aprendí a manipular las herramientas de traducción (CAT tools) y los sistemas TMS. Era, además, responsable de trackear toda la información pertinente a un proyecto determinado, como fecha de entrega, linguistas involucrados, pagos a proveedores y demás."
+	},
+	{
+		"position": "Traductor freelancer", 
+		"img": "./assets/freelancer.jpeg",
+		"start": "2011",
+		"end": "2011",
+		"jobDescription": "Traductor freelance para una agencia Argentina de traducción, especializada en marketing y IT."
+	}],	
+	"education": [{
+		"title": "Traductor técnico-científico, literario en inglés",
+		"img": "./assets/olga.jpeg",
+		"start": "2006",
+		"end": "2010",
+		"body": "Título terciario obtenido en el Instituto de Educación Superior Nº 28 Olga Cossettini."
+	},
+	{
+		"title": "Escuela secundaria",
+		"img": "./assets/Escudo_de_Santa_Fe.png",
+		"start": "2001",
+		"end": "2005",
+		"body": "Modalidad en 'Teoría y gestión de las organizaciones'."
+	},
+	{
+		"title": "Escuela primaria",
+		"img": "./assets/Escudo_de_Santa_Fe.png",
+		"start": "1994",
+		"end": "2000",
+		"body": "Estudios primar ios completos."
+	}],
+	"programacion": [{
+		"tecnologia": "Ruby",
+		"conocimiento": "60%"
+	},
+	{
+		"tecnologia": "Web development",
+		"conocimiento": "30%"
+	}],
+	"idiomas": [{
+		"lang": "Inglés",
+		"conocimiento": "100%"
+	},
+	{
+		"lang": "Hebreo",
+		"conocimiento": "30%"
+	},
+	{
+		"lang": "Francés",
+		"conocimiento": "25%"
+	}],
+	"diseno": [{
+		"tecnologia": "InDesign",
+		"conocimiento": "45%"
+	},
+	{
+		"tecnologia": "Photoshop",
+		"conocimiento": "27%"
+	}],
+	"traduccionLoc": [{
+		"tecnologia": "Machine Translation",
+		"conocimiento": "80%"
+	},
+	{
+		"tecnologia": "TMS",
+		"conocimiento": "60%"
+	},
+	{
+		"tecnologia": "XTM/memoQ",
+		"conocimiento": "98%"
+	}],
+	"soft": [{
+		"item": "Client Satisfaction",
+		"conocimiento": "100%"
+	},
+	{
+		"item": "Communication",
+		"conocimiento": "90%"
+	},
+	{
+		"item": "Leadership",
+		"conocimiento": "80%"
+	}],
+	"projects": [{
+		"name": "Portfolio web",
+		"start": "Octubre 2022",
+		"end": "Mayo 2023",
+		"img": "./assets/argentina-programa.png",
+		"body": "Curso de programación 'Full Stack Jr.'', dividido en dos partes. La primera parte consistió en tres módulos de resolución de problemas, donde cada módulo se enfocaba en un área determinada, como lógica, programación orientada a objetos y clases. La segunda parte del módulo, a la cual se accedía únicamente completando la primera, era de mucha más alta complejidad técnica y programática. El curso se dividió en 9 módulos, separados en temas específicos. Algunos de ellos fueron: Arquitectura web, HTML, Angular, programación orientada a objetos y servidores. El proyecto integrador del curso fue la creación de este portfolio web."
+	}]
+}

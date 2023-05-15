@@ -1,0 +1,290 @@
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -95px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.secciones {
+    box-sizing: border-box;
+    border-radius: 11px 11px 11px 11px;
+    width: auto;
+    height: auto;
+    margin: 50px 10px;
+    padding: 5px;
+    border: 0.5px solid black;
+
+}
+
+
+.items-list {
+    list-style-type: none
+}
+
+.first-card {
+    margin-top: 100px;
+}
+
+.banner-pic {
+    border-radius: 11px 11px 0px 0px;
+    width: 100%;
+    height: 350px;
+    margin-left: 0%;
+}
+
+
+.rws {
+
+    width: 160px;
+    height: 42px;
+    margin-left: 0px;
+
+}
+
+.freelancer {
+    width: 150px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+
+.olga {
+    width: 150px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+.escuelas {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+
+#acerca-de {
+    margin-left: 25%;
+    margin-top: -6%;
+    font-family: 'Trenda';
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+#title {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    letter-spacing: 2.8px;
+    word-spacing: 2.2px;
+    color: #222222;
+    font-weight: 700;
+    text-decoration: overline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#subheader {
+    margin-left: 18%;
+    margin-top: -3%;
+    font-family: 'Trenda';
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.2px;
+    color: #222222;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#date {
+    margin-left: 20%;
+    margin-top: 0;
+    font-family: 'Trenda';
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.2px;
+    color: #222222;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
+#body {
+    margin-left: 20%;
+    font-family: 'Trenda';
+    font-size: 22px;
+    color: #222222;
+    font-style: normal;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#trabajos {
+    margin: 30px 20px 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#educacion {
+    margin: 30px 20px 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.global-header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #ebebf2;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+.logo-arg-prog {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 10%;
+    margin-left: 0%;
+    justify-content: center;
+}
+
+.text-logo {
+    color: #455a64;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-left: 2px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.margen-derecho {
+   height: auto; 
+   width: auto;
+   margin-top: 9px;
+   margin-left: 80%;
+   float: right;
+   display: flex;
+   justify-content: center;
+}
+
+
+.padding-16 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.linkedin {
+    height: 25px;
+    width: 25px;
+}
+
+.instagram {
+    height: 25px;
+    width: 25px;
+}
+
+
+.login {
+        color: rgb(255, 255, 255); font-size: 13.5px; width: 75px; line-height: 16px; padding: 8px; border-radius: 8px; font-family: "Poppins",sans-serif; font-weight: bold; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164);}
+        .myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; 
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+
+.lista-elementos {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+
+}
+
+
+.logo {
+    height: auto;
+    width: auto;
+    margin-top: -10px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    margin-left: 20px;
+    font-family: 'Trenda';
+    font-size: 50px;
+    letter-spacing: 1.6px;
+    word-spacing: 3.8px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+#role {
+    margin-left: 20px;
+    font-family: 'Trenda';
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#logo-titulo {
+    align-items: center;
+    margin-left: 2.5%;
+    
+}
+
+
+#skillset{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    word-spacing: 2.2px;
+    color: #222222;
+    font-weight: 700;
+    font-style: initial;
+    font-variant: small-caps; 
+}
+
+.progress {
+    width: 40%;
+    height: 30px;
+    border-color: #000000;
+    border-style:double;
+    background-color: #CD5C5C;
+}
+
+.progress.bar {
+    text-align: left;
+    background-color: #CD5C5C;
+}
+
